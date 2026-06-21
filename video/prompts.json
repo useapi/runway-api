@@ -1,0 +1,20 @@
+[
+    {
+        "text_prompt": "By default the Gen-4.5 model with exploreMode ON and a 5-second duration will be used."
+    },
+    {
+        "model": "gen4.5",
+        "exploreMode": true,
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "firstImage": "./first_image.jpeg",
+        "lastImage": "./last_image.jpeg",
+        "text_prompt": "Image-to-video with a start frame (firstImage → imageAssetId1) and an end frame (lastImage → imageAssetId2). For all parameters see https://useapi.net/docs/api-runwayml-v1/post-runwayml-videos-create"
+    },
+    {
+        "model": "gen4-turbo",
+        "duration": 5,
+        "firstImage": "./image.jpeg",
+        "text_prompt": "Faster Gen-4 Turbo generation from a single start frame. Other models (veo-3.1, kling-3.0-pro, sora-2, seedance-2, …) are selectable via the model field — see the videos/create docs."
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "text_prompt": "Your prompt goes here. By default exploreMode is ON and num_images is 4."
+    },
+    {
+        "text_prompt": "Your prompt goes here. You can optionally provide all the params supported by Frames, see https://useapi.net/docs/api-runwayml-v1/post-runwayml-frames-create",
+        "style": "terracotta",
+        "exploreMode": false,
+        "aspect_ratio": "21:9",
+        "diversity": 5,
+        "num_images": 4,
+        "seed": 987654321
+    },
+    {
+        "text_prompt": "Reference images: upload them first with POST /assets, then refer to them as @IMG_1 / @IMG_2 / @IMG_3 in the prompt. A woman in the style of @IMG_1 standing in @IMG_2.",
+        "imageAssetId1": "user:1234-runwayml:me@email.com-asset:uuid-1",
+        "imageAssetId2": "user:1234-runwayml:me@email.com-asset:uuid-2"
+    }
+]
