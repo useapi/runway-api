@@ -3,13 +3,13 @@
         "text_prompt": "By default the Gen-4.5 model with exploreMode ON and a 5-second duration will be used."
     },
     {
-        "model": "gen4.5",
+        "model": "kling-3.0-pro",
         "exploreMode": true,
         "duration": 10,
         "aspect_ratio": "16:9",
         "firstImage": "./first_image.jpeg",
         "lastImage": "./last_image.jpeg",
-        "text_prompt": "Image-to-video with a start frame (firstImage → imageAssetId1) and an end frame (lastImage → imageAssetId2). For all parameters see https://useapi.net/docs/api-runwayml-v1/post-runwayml-videos-create"
+        "text_prompt": "First-and-last-frame video with Kling 3.0 Pro: a start frame (firstImage → imageAssetId1) and an end frame (lastImage → imageAssetId2). Kling 3.0 Pro supports an end frame — the Gen-4.x models accept a single start frame only. For all parameters see https://useapi.net/docs/api-runwayml-v1/post-runwayml-videos-create"
     },
     {
         "model": "gen4-turbo",
