@@ -1,6 +1,6 @@
 /*
 
-Script version 3.0, June 15, 2026
+Script version 3.1, June 22, 2026
 
 Script to batch-generate videos using prompts with the Runway API v1 by useapi.net 🚀
 Uses the unified videos/create endpoint (default model: Gen-4.5).
@@ -36,6 +36,7 @@ This command executes the script using API token user:1234-abcdefhijklmnopqrstuv
 Changelog:
 ==========
 
+- June 22, 2026: Maintenance release.
 - June 15, 2026: Migrated to the unified videos/create endpoint. Select the model via the prompt's model field (default gen4.5).
 - October 22, 2024: Small bug fix with parameter validation.
 
@@ -182,10 +183,10 @@ async function submitVideo(apiToken, email, prompt, index) {
     const { model, text_prompt, firstImage, lastImage, image, aspect_ratio, duration, seed } = prompt;
 
     const useModel = model ?? DEFAULT_MODEL;
-    const exploreMode = prompt?.exploreMode ?? true;
+    const exploreMode = prompt?.exploreMode;
     const useDuration = duration ?? 5;
 
-    console.log(`🚀 ${useModel} » Prompt #${index} • account ${email} • exploreMode ${exploreMode ? 'ON' : 'OFF'} • ${useDuration} secs …`);
+    console.log(`🚀 ${useModel} » Prompt #${index} • account ${email} • ${useDuration} secs …`);
 
     const startFrame = firstImage ?? image;
     const imageAssetId1 = startFrame ? await uploadAsset(apiToken, email, startFrame) : undefined;
@@ -291,7 +292,7 @@ async function main() {
         process.exit(1);
     }
 
-    console.info('Script v3.0');
+    console.info('Script v3.1');
 
     console.info('Node version is: ' + process.version);
 

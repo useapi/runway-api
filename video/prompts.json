@@ -1,10 +1,9 @@
 [
     {
-        "text_prompt": "By default the Gen-4.5 model with exploreMode ON and a 5-second duration will be used."
+        "text_prompt": "By default the Gen-4.5 model with a 5-second duration will be used."
     },
     {
         "model": "kling-3.0-pro",
-        "exploreMode": true,
         "duration": 10,
         "aspect_ratio": "16:9",
         "firstImage": "./first_image.jpeg",
