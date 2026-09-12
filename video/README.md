@@ -1,6 +1,6 @@
 # Runway Gen video — Runway API batch generation (Node.js)
 
-Batch-generate [Runway](https://runwayml.com) **Gen-4.5** (and Gen-4, Gen-4 Turbo, plus the third-party models Runway hosts — Veo 3.1, Sora 2, Kling, Seedance, and more) video through the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net).
+Batch-generate [Runway](https://runwayml.com) **Gen-4.5** (and Gen-4, Gen-4 Turbo, plus the third-party models Runway hosts — Veo 3.1, Sora 2, Kling, Seedance, and more) video through the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=runway-api).
 
 📖 Full walkthrough: **[How to Generate Runway Gen Videos via API](https://useapi.net/docs/articles/runway-bash)**
 
@@ -9,7 +9,7 @@ Batch-generate [Runway](https://runwayml.com) **Gen-4.5** (and Gen-4, Gen-4 Turb
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
-- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi)
+- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=runway-api)
 - A connected [Runway account](https://useapi.net/docs/start-here/setup-runwayml) email
 
 ## Usage

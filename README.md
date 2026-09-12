@@ -1,6 +1,6 @@
 # Runway API examples (useapi.net)
 
-Runnable Node.js examples for the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net) — drive your own [Runway](https://runwayml.com) account over a simple REST API. Beyond Runway's native **Gen-4.5 / Gen-4 / Gen-4 Turbo / Gen-4 Aleph** video and **Frames** images, the same account reaches the **frontier third-party models Runway hosts** — **Veo 3.1**, **Sora 2 / Sora Pro**, **Kling v3**, **Seedance 2.0**, **Wan 2.6 / 2.2 Animate**, **FLUX.2**, **Nano Banana / Pro**, and **GPT Image** — plus **Act-Two** character animation, **lip-sync**, **video extend**, **Kling motion control**, and **Topaz 4K upscale**. No developer account, no per-call metering; the **Runway Unlimited** plan unlocks credit-free `exploreMode` on images and most video models.
+Runnable Node.js examples for the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=runway-api) — drive your own [Runway](https://runwayml.com) account over a simple REST API. Beyond Runway's native **Gen-4.5 / Gen-4 / Gen-4 Turbo / Gen-4 Aleph** video and **Frames** images, the same account reaches the **frontier third-party models Runway hosts** — **Veo 3.1**, **Sora 2 / Sora Pro**, **Kling v3**, **Seedance 2.0**, **Wan 2.6 / 2.2 Animate**, **FLUX.2**, **Nano Banana / Pro**, and **GPT Image** — plus **Act-Two** character animation, **lip-sync**, **video extend**, **Kling motion control**, and **Topaz 4K upscale**. No developer account, no per-call metering; the **Runway Unlimited** plan unlocks credit-free `exploreMode` on images and most video models.
 
 Each example reads a list of prompts from `prompts.json`, submits them through the useapi.net Runway API, polls each task until it is final, and downloads every result — so you can queue a batch and come back to the winners.
 
@@ -11,7 +11,7 @@ Each example reads a list of prompts from `prompts.json`, submits them through t
 
 ## Quick start
 
-You need [Node.js](https://nodejs.org) v21 or newer (no dependencies to install), a useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi), and a connected [Runway account](https://useapi.net/docs/start-here/setup-runwayml) (one [$15/month subscription](https://useapi.net/docs/subscription) covers every useapi.net API):
+You need [Node.js](https://nodejs.org) v21 or newer (no dependencies to install), a useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=runway-api), and a connected [Runway account](https://useapi.net/docs/start-here/setup-runwayml) (one [$15/month subscription](https://useapi.net/docs/subscription?utm_source=github&utm_medium=readme&utm_campaign=runway-api) covers every useapi.net API):
 
 ```bash
 git clone https://github.com/useapi/runway-api.git
@@ -28,7 +28,7 @@ node ./runwayml.mjs <API_TOKEN> <EMAIL>
 
 ## About useapi.net
 
-[useapi.net](https://useapi.net) is an experimental REST API for AI services. The Runway API drives your own [Runway](https://runwayml.com) account, so you spend your plan's credits at consumer rates instead of metered developer-API pricing. See the [model matrix](https://useapi.net/model-matrix) and pricing on the [API overview](https://useapi.net/docs/api-runwayml-v1).
+[useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=runway-api) is an experimental REST API for AI services. The Runway API drives your own [Runway](https://runwayml.com) account, so you spend your plan's credits at consumer rates instead of metered developer-API pricing. See the [model matrix](https://useapi.net/model-matrix?utm_source=github&utm_medium=readme&utm_campaign=runway-api) and pricing on the [API overview](https://useapi.net/docs/api-runwayml-v1).
 
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for any support questions and concerns.
 
