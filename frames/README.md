@@ -1,6 +1,6 @@
 # Runway Frames images — Runway API batch generation (Node.js)
 
-Batch-generate high-fidelity images with [Runway Frames](https://useapi.net/docs/api-runwayml-v1/post-runwayml-frames-create) — including up to three **reference images** — through the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=runway-api).
+Batch-generate high-fidelity images with [Runway Frames](https://useapi.net/docs/api-runwayml-v1/post-runwayml-frames-create) — including up to three **reference images** — through the [Runway API](https://useapi.net/docs/api-runwayml-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=runway-api).
 
 📖 Full walkthrough: **[How to Batch-Generate Images with Runway Frames via API](https://useapi.net/docs/articles/runway-frames-script)**
 
@@ -9,7 +9,7 @@ Batch-generate high-fidelity images with [Runway Frames](https://useapi.net/docs
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
-- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=runway-api)
+- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github.com&utm_medium=referral&utm_campaign=runway-api)
 - A connected [Runway account](https://useapi.net/docs/start-here/setup-runwayml) email
 
 ## Usage
