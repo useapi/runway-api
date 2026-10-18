@@ -4,6 +4,8 @@ Batch-generate [Runway](https://runwayml.com) **Gen-4.5** (and Gen-4, Gen-4 Turb
 
 📖 Full walkthrough: **[How to Generate Runway Gen Videos via API](https://useapi.net/docs/articles/runway-bash)**
 
+Videos made with this API, on YouTube: [Noir Christmas • Runway Gen-4.5](https://www.youtube.com/watch?v=I8esy4sKMwo) · [Who is she? • Runway Gen-4](https://youtube.com/shorts/R_P0dhahQAY)
+
 `runwayml.mjs` reads prompts from `prompts.json`, uploads any start-frame (and, for models that support an end frame, last-frame) images via [`POST /assets`](https://useapi.net/docs/api-runwayml-v1/post-runwayml-assets), submits each job to the unified [`POST /videos/create`](https://useapi.net/docs/api-runwayml-v1/post-runwayml-videos-create) endpoint, polls [`GET /tasks/{taskId}`](https://useapi.net/docs/api-runwayml-v1/get-runwayml-tasks-taskId) until each task is final, and downloads every finished MP4.
 
 ## Prerequisites
