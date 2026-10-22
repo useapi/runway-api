@@ -1,7 +1,7 @@
 {
   "name": "runway-api",
   "version": "1.0.0",
-  "description": "Runnable Node.js examples for the Runway API by useapi.net — Gen-4.5 / Gen-4 video (text-to-video and image-to-video) and Frames image generation, plus the frontier third-party models Runway hosts.",
+  "description": "Runnable Node.js examples for the Runway API by useapi.net: Gen-4.5 and Gen-4 video (text-to-video and image-to-video) and Frames images on your Runway subscription, plus the third-party models Runway hosts.",
   "author": "useapi.net",
   "license": "MIT",
   "type": "module",

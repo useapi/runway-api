@@ -2,7 +2,7 @@
 
 Script version 3.0, June 15, 2026
 
-Script to generate images using prompts with Runway API v1 by useapi.net 🚀
+Script to generate images using prompts with Runway API by useapi.net
 For more details visit https://useapi.net/docs/api-runwayml-v1
 
 Installation Instructions:

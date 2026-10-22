@@ -2,7 +2,7 @@
 
 Script version 3.1, June 22, 2026
 
-Script to batch-generate videos using prompts with the Runway API v1 by useapi.net 🚀
+Script to batch-generate videos using prompts with the Runway API by useapi.net
 Uses the unified videos/create endpoint (default model: Gen-4.5).
 For more details visit https://useapi.net/docs/api-runwayml-v1/post-runwayml-videos-create
 
