@@ -14,6 +14,6 @@
         "model": "gen4-turbo",
         "duration": 5,
         "firstImage": "./image.jpeg",
-        "text_prompt": "Faster Gen-4 Turbo generation from a single start frame. Other models (veo-3.1, kling-3.0-pro, sora-2, seedance-2, …) are selectable via the model field — see the videos/create docs."
+        "text_prompt": "Faster Gen-4 Turbo generation from a single start frame. Other models (veo-3.1, kling-3.0-pro, seedance-2, …) are selectable via the model field — see the videos/create docs."
     }
 ]
