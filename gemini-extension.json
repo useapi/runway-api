@@ -1,0 +1,22 @@
+{
+  "name": "useapi-runway",
+  "version": "1.0.0",
+  "description": "Hosted Runway MCP server by useapi.net (25 tools): make video with Gen-4.5, Seedance, Kling, Veo and the other models Runway hosts, edit it with Aleph, animate characters with Act-Two, lip sync, make images and Frames, upscale to 4K, on your own Runway accounts. Third-party paid service, not affiliated with Runway.",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "useapi.net API token",
+      "description": "Your useapi.net API token, from https://useapi.net/docs/start-here/setup-useapi",
+      "envVar": "USEAPI_TOKEN",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "useapi-runwayml": {
+      "httpUrl": "https://api.useapi.net/v1/runwayml/mcp",
+      "headers": {
+        "Authorization": "Bearer ${USEAPI_TOKEN}"
+      }
+    }
+  }
+}

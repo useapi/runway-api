@@ -1,0 +1,24 @@
+{
+  "name": "useapi-runway",
+  "description": "useapi.net Runway plugin for Claude Code: the hosted MCP server.",
+  "owner": {
+    "name": "useapi.net",
+    "url": "https://useapi.net"
+  },
+  "plugins": [
+    {
+      "name": "runway",
+      "source": "./",
+      "description": "Hosted Runway MCP server by useapi.net (25 tools): make video with Gen-4.5, Seedance, Kling, Veo and the other models Runway hosts, edit it with Aleph, animate characters with Act-Two, lip sync, make images and Frames, upscale to 4K, on your own Runway accounts. Third-party paid service, not affiliated with Runway.",
+      "category": "media",
+      "tags": [
+        "runway",
+        "gen-4",
+        "seedance",
+        "video",
+        "image",
+        "mcp"
+      ]
+    }
+  ]
+}
