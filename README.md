@@ -23,6 +23,8 @@ node ./runwayml.mjs <API_TOKEN> <EMAIL>
 
 ## MCP server
 
+[![Runway MCP connector](https://glama.ai/mcp/connectors/net.useapi/runwayml/badges/score.svg)](https://glama.ai/mcp/connectors/net.useapi/runwayml)
+
 useapi.net also runs a hosted [Model Context Protocol](https://modelcontextprotocol.io) server for Runway, so an AI assistant such as the Claude app, ChatGPT, Claude Code, Cursor or VS Code Copilot can use it on your Runway accounts. It has 25 tools: video with any of the 25 video models Runway hosts, among them Gen-4.5, Seedance 2.5, Kling O3, Veo 3.1, Wan 3.0 and MiniMax H3; Aleph video edits, Act-Two character animation, voice swap and lip sync; images with 13 models or Frames, and free image-to-prompt descriptions; Topaz 4K upscales; uploads, your task history and running tasks. Every generation tool takes `exploreMode`. Nothing to install or run locally.
 
 - Endpoint: `https://api.useapi.net/v1/runwayml/mcp`
