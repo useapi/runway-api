@@ -91,6 +91,8 @@ The install asks for your useapi.net API token and keeps it in the system keycha
 
 [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=runway-api) is a third-party REST API for AI services. The Runway API runs on your [Runway subscription](https://runway.com/pricing), so you spend its credits at website rates instead of metered developer-API pricing. See the models and pricing on the [Runway API overview](https://useapi.net/docs/api-runwayml-v1?utm_source=github.com&utm_medium=referral&utm_campaign=runway-api).
 
+Is Runway working right now? See the [status page](https://useapi.net/status?api=runwayml&utm_source=github.com&utm_medium=referral&utm_campaign=runway-api).
+
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for any support questions and concerns.
 
 We regularly post guides and tutorials on the [YouTube Channel](https://www.youtube.com/@useapi-net).
